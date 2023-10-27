@@ -1,0 +1,90 @@
+.GO0LDVOEFpV2cgEqaQ5i {
+    margin: 10px auto;
+    padding: 2rem;
+    max-width: 1100px;
+    height: 100%;
+    background-color: rgb(190, 253, 165);
+    border-radius: 0.5rem;
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Co9Oi8F5jo6s1AkbRZL7 {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    //background: #fc0; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    text-align: left;
+    width: 92%;
+}
+
+
+.ODSNl_LANpjm5xtqz8v5 {
+    font-size: 2rem;
+}
+
+.akYEDdI2hPuH4W1Yfchw {
+    background-color: rgb(255, 121, 121);
+    border-radius: 50%;
+    opacity: 0.8;
+	color: inherit;
+	border: none;
+	padding: 2px 3px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.WBpqJu00d3ki_B2DjXzH {
+    text-align: left;
+}
+
+body {
+    margin: 0;
+}
+.trfcMLxG383N5f60_Hbv {
+    margin: 10px auto;
+    padding: 2rem;
+    max-width: 1100px;
+    height: 100%;
+    background-color: rgb(190, 253, 165);
+    border-radius: 0.5rem;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.xAvPQicIw0It9hIqGtw4 {
+    background-color: rgb(255, 121, 121);
+    border-radius: 50%;
+    opacity: 0.8;
+	color: inherit;
+	border: none;
+	padding: 2px 5px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    width: 47px;
+    height: 50px;
+
+    &:hover {
+        opacity: 1;
+    }
+}

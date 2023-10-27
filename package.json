@@ -1,6 +1,7 @@
 {
   "name": "picasso",
   "homepage": "https://Stoocom.github.io/picasso",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",

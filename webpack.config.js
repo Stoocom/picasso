@@ -11,6 +11,7 @@ module.exports = {
     entry: { myAppName: path.resolve(__dirname, "./src/index.js") },
     output: {
         path: path.resolve(__dirname, "./build"),
+        publicPatch: "/",
         filename: production ? '[name].[contenthash].js' : '[name].js',
     },
     module: {
@@ -53,8 +54,10 @@ module.exports = {
         }),
     ],
     devServer: {
+        historyApiFallback: true,
         port: 3001,
         hot: true,
     },
+    devtool: 'source-map',
     mode: production ? 'production' : 'development'
 };

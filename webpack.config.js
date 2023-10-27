@@ -11,7 +11,6 @@ module.exports = {
     entry: { myAppName: path.resolve(__dirname, "./src/index.js") },
     output: {
         path: path.resolve(__dirname, "./build"),
-        publicPath: "/",
         filename: production ? '[name].[contenthash].js' : '[name].js',
     },
     module: {
